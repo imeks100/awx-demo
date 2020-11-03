@@ -1,8 +1,11 @@
 ---
 - hosts: all
-#  remote_user: ec2-user
+  remote_user: ec2-user
   tasks:
-  - name: install telnet
+  - name: install bc
     yum:
-      name: telnet
+      name:
+        - bc
+        - lsof
+        - telnet
       state: present
