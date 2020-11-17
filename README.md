@@ -1,2 +1,1 @@
-# awx-demo
-This is an awx demo README.
+# awx demo project
